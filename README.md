@@ -5,7 +5,7 @@
 2.  
 3. FARAH NUR ATHIRAH BINTI SUKARDAN (2310960)  
 4. NUR IRDINA BINTI ABD RAHMAN (2213414)
-5.  
+5. UMMU HANIE BINTI MOHD NOR (2313274) 
 
 ## TITLE OF THE PROJECT 
 TasteOS
@@ -78,6 +78,26 @@ This project aims to provide a meaningful and ethical digital solution to the ev
 ## ERD DIAGRAM FOR OUR SYSTEM
 
 ## SEQUENCE DIAGRAM 
+
+#### 1. Menu Management (Admin Module)
+![Menu Management (Admin Module)](https://github.com/user-attachments/assets/350a6c56-e25a-4f75-93fc-a5819ac2fd3f)
+
+
+#### 2. Point of Sale (POS) System (Staff Module) and Order Queue Management
+![Point of Sale (POS) System (Staff Module)](https://github.com/user-attachments/assets/a2d1e629-3832-46a0-b708-7fd0c864fd2a)
+
+
+#### 3. Inventory Management (Admin Module)
+![Inventory Management (Admin Module)](https://github.com/user-attachments/assets/c0b86dbf-d484-4a5b-9921-d142ad971fe0)
+
+
+#### 4. Customer & Loyalty System
+![Customer   Loyalty System](https://github.com/user-attachments/assets/38ba92ae-6997-48df-8d51-6143341b3d82)
+
+
+#### 5. Reporting & Analytics
+![Reporting   Analytics](https://github.com/user-attachments/assets/a67bd488-0df2-44f9-b76c-6a2678c6e3d5)
+
 
 ## REFERENCES
 
