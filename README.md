@@ -8,7 +8,8 @@
 5. UMMU HANIE BINTI MOHD NOR (2313274) 
 
 ## TITLE OF THE PROJECT 
-TasteOS
+
+#### TasteOS – A Laravel-Based Shariah-Compliant Café Management System for Campus Entrepreneurs
 
 
 ## INTRODUCTION OF THE PROJECT
