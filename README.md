@@ -106,3 +106,8 @@ This ERD represents a restaurant management system with five main modules: Menu 
 
 ## REFERENCES
 
+1. Yadav, N., Rajpoot, D. S., & Dhakad, S. K. (2019, November). LARAVEL: a PHP framework for e-commerce website. In 2019 Fifth International Conference on Image Information Processing (ICIIP) (pp. 503-508). IEEE.
+2. Santoso, G. B., Sinaga, T. M., & Zuhdi, A. (2021). MVC Implementation In Laravel Framework For Development Web-Based E-Commerce Applications. Intelmatics, 1(1).
+3. Lestari, T. (2020). Implementing Laravel Framework for E-Commerce: Case Study at Indonesian Farmer Shop Center. International Journal of Advanced Science Computing and Engineering, 2(1), 14-20.
+   
+
