@@ -106,7 +106,7 @@ This ERD represents a restaurant management system with five main modules: Menu 
 
 ## PROTOTYPE
 
-
+![Alt text](login.png) 
 
 
 
