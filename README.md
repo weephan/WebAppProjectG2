@@ -120,7 +120,7 @@ This ERD represents a restaurant management system with five main modules: Menu 
 
 #### 4. Place Order Page 
 
-![place order page](placeorder.png) 
+![place order page](place order.png) 
 
 #### 5. Stock Page 
 
