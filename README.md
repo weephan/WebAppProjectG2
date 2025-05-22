@@ -130,11 +130,11 @@ This ERD represents a restaurant management system with five main modules: Menu 
 
 ![sales report page](salesreport.png) 
 
-#### 4. Place Order Page 
+#### 7. Place Order Page 
 
 ![place order page](placeorder.png) 
 
-#### 4. Customer List Page 
+#### 8. Customer List Page 
 
 ![pcustomer list page](customerlist.png)  
 
