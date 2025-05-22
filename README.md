@@ -104,6 +104,11 @@ This ERD represents a restaurant management system with five main modules: Menu 
 #### 5. Reporting & Analytics
 ![Reporting   Analytics](https://github.com/user-attachments/assets/a67bd488-0df2-44f9-b76c-6a2678c6e3d5)
 
+## PROTOTYPE
+
+
+
+
 
 ## REFERENCES
 
