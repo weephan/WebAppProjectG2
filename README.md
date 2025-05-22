@@ -106,8 +106,37 @@ This ERD represents a restaurant management system with five main modules: Menu 
 
 ## PROTOTYPE
 
-![Alt text](login.png) 
+#### 1. Login Page 
 
+![login page ](login.png) 
+
+#### 2. Sign Up Page 
+
+![sign up page](signup.png) 
+
+#### 3. Menu Page 
+
+![menu page](menu.png) 
+
+#### 4. Place Order Page 
+
+![place order page](placeorder.png) 
+
+#### 5. Stock Page 
+
+![stock page](stock.png) 
+
+#### 6. Sales Report Page 
+
+![sales report page](salesreport.png) 
+
+#### 4. Place Order Page 
+
+![place order page](placeorder.png) 
+
+#### 4. Customer List Page 
+
+![pcustomer list page](customerlist.png)  
 
 
 ## REFERENCES
