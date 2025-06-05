@@ -82,7 +82,7 @@
     </div>
   </header>
 
-  @yield('content');
+  @yield('content')
 
   <footer id="footer" class="footer">
 
