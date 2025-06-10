@@ -46,9 +46,8 @@ This project aims to provide a meaningful and ethical digital solution to the ev
 ## FEATURES AND FUNCTIONALITIES OF THE PROJECT
 #### 1. Menu Management (Admin Module)
 - Add/Delete/Edit menu items (CRUD)
-- Categorize items (e.g: drinks, desserts)
+- Categorize items (e.g: drinks, pastries)
 - Upload images, prices and descriptions
-- Set item availability (in-stock/out of stock)
 
 #### 2. Point of Sale (POS) System (Staff Module)
 - New order creation: select items, quantity, table service/takeaway
