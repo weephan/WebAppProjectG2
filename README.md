@@ -130,11 +130,7 @@ This ERD represents a cafe management system with five main modules: Menu Manage
 
 ![sales report page](salesreport.png) 
 
-#### 7. Place Order Page 
-
-![place order page](placeorder.png) 
-
-#### 8. Customer List Page 
+#### 7. Customer List Page 
 
 ![pcustomer list page](customerlist.png)  
 
