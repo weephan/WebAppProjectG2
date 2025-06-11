@@ -1,11 +1,10 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\InventoryController;
 use App\Http\Controllers\MenuController;
 use App\Http\Controllers\LoyaltyController;
 use App\Http\Controllers\ReportController;
-use App\Http\Controllers\InventoryController;
-
 
 // Main Page Route
 Route::get('/', function () { return view('home'); })->name('home');
