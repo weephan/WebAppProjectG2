@@ -55,7 +55,7 @@
                     <li><a href="#about">About</a></li>
                     <li><a href="#menu">Menu</a></li>
                     <li><a href="#book-a-table">Book a Table</a></li>
-                    <li><a href="#chefs">Chefs</a></li>
+                    <li><a href="#chefs">to become reportChefs</a></li>
                     <li><a href="#events">Events</a></li>
                     <li><a href="{{ route('index') }}">Loyalty Program</a></li>
                     <li class="dropdown"><a href="#"><span>Dropdown</span> <i

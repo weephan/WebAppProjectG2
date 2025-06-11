@@ -49,14 +49,14 @@
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="#hero" class="active">Home</a></li>
+          <li><a href="/" class="active">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#menu">Menu</a></li>
-          <li><a href="#book-a-table">Book a Table</a></li>
-          <li><a href="#chefs">Chefs</a></li>
-          <li><a href="#events">Events</a></li>
-          <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-            <ul>
+          <li><a href="#book-a-table">Inventory</a></li>
+          <li><a href="#chefs">Loyalty Program</a></li>
+          <li><a href="/report">Sales Report</a></li>
+          <!-- <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            {{-- <ul>
               <li><a href="#">Dropdown 1</a></li>
               <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
                 <ul>
@@ -70,14 +70,14 @@
               <li><a href="#">Dropdown 2</a></li>
               <li><a href="#">Dropdown 3</a></li>
               <li><a href="#">Dropdown 4</a></li>
-            </ul>
-          </li>
+            </ul> --}}
+          </li> -->
           <li><a href="#contact">Contact</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
 
-      <a class="btn-getstarted d-none d-sm-block" href="#book-a-table">Book a Table</a>
+      <a class="btn-getstarted d-none d-sm-block" href="#book-a-table">Order Food</a>
 
     </div>
   </header>
@@ -85,7 +85,7 @@
   @yield('content')
   @yield('scripts')
 
-  
+
   <footer id="footer" class="footer">
 
     <div class="container footer-top">
