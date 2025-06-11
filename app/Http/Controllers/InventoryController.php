@@ -14,7 +14,7 @@ class InventoryController extends Controller
 
     public function create()
     {
-        return view('inventory.create');
+        return view('inventory.createInventory');
     }
 
     public function store(Request $request)
@@ -25,7 +25,7 @@ class InventoryController extends Controller
 
     public function edit(Inventory $inventory)
     {
-        return view('inventory.edit', compact('inventory'));
+        return view('inventory.editInventory', compact('inventory'));
     }
 
     public function update(Request $request, Inventory $inventory)
