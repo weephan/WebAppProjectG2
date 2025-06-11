@@ -1,13 +1,23 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\MenuController;
+use App\Http\Controllers\InventoryController;
 
-// Main Page Route
+// Main page
 Route::get('/', function () {
     return view('mainpage');
-})->name('home');
+});
 
-Route::resource('menu', MenuController::class);
-Route::get('/add-menu', [MenuController::class, 'create'])->name('menu.add');
+// // RESTful routes for inventory
+Route::resource('inventory', InventoryController::class);
+// Route::get('/inventory', [InventoryController::class, 'index'])->name('inventory.index');
+// For Resourceful Routes (Recommended)
+// Route::resource('inventory', 'App\Http\Controllers\InventoryController');
 
+// // OR Manually Define Each Route
+// Route::get('/inventory', [InventoryController::class, 'index'])->name('inventory.index');
+// Route::get('/inventory/create', [InventoryController::class, 'create'])->name('inventory.create');
+// Route::post('/inventory', [InventoryController::class, 'store'])->name('inventory.store');
+// Route::get('/inventory/{id}/edit', [InventoryController::class, 'edit'])->name('inventory.edit');
+// Route::put('/inventory/{id}', [InventoryController::class, 'update'])->name('inventory.update');
+// Route::delete('/inventory/{id}', [InventoryController::class, 'destroy'])->name('inventory.destroy');
