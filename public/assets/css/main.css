@@ -2660,6 +2660,123 @@ section,
 /*--------------------------------------------------------------
 # Starter Section Section
 --------------------------------------------------------------*/
-.starter-section {
-  /* Add your styles here */
+/*--------------------------------------------------------------
+# Starter Section Section
+--------------------------------------------------------------*/
+/* Reset default list styles and ensure proper flex layout */
+.menu-filters {
+ display: flex;
+ gap: 12px;                   /* Slightly larger gap for better spacing */
+ list-style: none;
+ padding: 0;
+ margin: 0;
+ align-items: center;
+ justify-content: center;      /* Center the entire filter group horizontally */
+ width: 35%;                 /* Ensure full width for parent alignment */
+}
+
+
+/* Button styling with clear visibility and alignment */
+.menu-filters li {
+ color: #5E4B3A !important;   /* Dark nude brown text (force with !important) */
+ background: #d4c8bd !important; /* Light nude background */
+ padding: 12px 24px;          /* Increased padding for better proportions */
+ border-radius: 6px;          /* Slightly larger radius for smoother look */
+ cursor: pointer;
+ font-size: 16px;
+ font-family: sans-serif;     /* Ensure a fallback font is specified */
+ transition: all 0.3s ease;
+ display: inline-flex;        /* Better for inline centering than flex */
+ align-items: center;
+ justify-content: center;
+ text-align: center;
+ border: 1px solid #D7C4B8;   /* Subtle border to define edges */
+ box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); /* Soft shadow for depth */
+ min-width: 80px;             /* Prevent squeezing of text */
+}
+
+
+/* Hover state */
+.menu-filters li:hover {
+ background: #E2D5CB !important;
+ transform: translateY(-1px);  /* Slight lift effect on hover */
+}
+
+
+/* Active state */
+.filter-active {
+ background: #D7C4B8 !important;
+ font-weight: 600;
+ border-color: #5E4B3A;       /* Darker border for active state */
+}
+
+
+/* Menu Item Styles */
+.menu-item {
+ margin-bottom: 30px;
+}
+
+
+.menu-img {
+ width: 100%;
+ height: 200px;
+ object-fit: cover;
+ border-radius: 5px;
+}
+
+
+.menu-content {
+ display: flex;
+ justify-content: space-between;
+ margin-top: 10px;
+}
+
+
+.menu-content a {
+ font-weight: 600;
+ color: #333;
+}
+
+
+.menu-content span {
+ font-weight: 600;
+ color: #cda45e;
+}
+
+
+.menu-actions {
+ display: flex;
+ gap: 10px;
+}
+
+
+/* Filter Styles */
+.menu-filters {
+ padding: 0;
+ margin: 0 auto 30px auto;
+ list-style: none;
+ text-align: center;
+ background: #fff;
+ border-radius: 50px;
+ padding: 8px 15px;
+}
+
+
+.menu-filters li {
+ cursor: pointer;
+ display: inline-block;
+ padding: 8px 20px;
+ font-size: 14px;
+ font-weight: 600;
+ line-height: 1;
+ color: #444;
+ margin: 0 4px;
+ border-radius: 50px;
+ transition: all 0.3s;
+}
+
+
+.menu-filters li:hover, .menu-filters li.filter-active {
+ color: #fff;
+ background: #cda45e;
 }
