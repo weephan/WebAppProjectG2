@@ -9,7 +9,7 @@ class InventoryController extends Controller
     public function index()
     {
         $inventory = Inventory::all();
-        return view('inventory.index', compact('inventory'));
+        return view('inventory.indexInventory', compact('inventory'));
     }
 
     public function create()
@@ -20,7 +20,7 @@ class InventoryController extends Controller
     public function store(Request $request)
     {
         Inventory::create($request->all());
-        return redirect()->route('inventory.index')->with('success', 'Item added!');
+        return redirect()->route('inventory.indexInventory')->with('success', 'Item added!');
     }
 
     public function edit(Inventory $inventory)
@@ -31,12 +31,12 @@ class InventoryController extends Controller
     public function update(Request $request, Inventory $inventory)
     {
         $inventory->update($request->all());
-        return redirect()->route('inventory.index')->with('success', 'Item updated!');
+        return redirect()->route('inventory.indexInventory')->with('success', 'Item updated!');
     }
 
     public function destroy(Inventory $inventory)
     {
         $inventory->delete();
-        return redirect()->route('inventory.index')->with('success', 'Item deleted!');
+        return redirect()->route('inventory.indexInventory')->with('success', 'Item deleted!');
     }
 }
